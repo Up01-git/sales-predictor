@@ -1,0 +1,38 @@
+<div class="full-page">
+    <div class="nav-bar">
+        <div class="heading">
+            <h1>Sales Predictor</h1>
+        </div>
+        <div class="hyper-links">
+            <a (click)="goToSignIn()">Sign Out</a>
+            <a (click)="goToCalculate()">Calculate</a>
+            <a (click)="goToInstructPage()">Instructions</a>
+            <a (click)="goToHomePage()">Home</a>            
+        </div>
+    </div>
+
+    <div class="get-data">
+        <div class="sales-img">
+            <img src="https://miro.medium.com/max/828/1*gsUixexI9DsFfKsS-ZZqng.png">
+        </div>
+        <div class="form-div">
+            <form>
+                <div class="form-inputs">
+                    <label for="file-upload">Upload File : </label>
+                    <input type="file" name="file-upload" class="file-upload" [(ngModel)]="file">
+                    <pre></pre>
+                    <label for="date">Date of prediction (DD/MM/YYYY) : </label>
+                    <input type="date" name="date" class="date" [(ngModel)]="date">
+                    <pre></pre>
+                    <button class="final-submit btn" (click)="onSubmit()">Submit</button>
+                    <br>
+                    <div class="predict"> {{finalString}} </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    
+
+</div>

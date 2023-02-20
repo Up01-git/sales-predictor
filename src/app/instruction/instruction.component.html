@@ -1,0 +1,39 @@
+<div class="full-page">
+    <div class="nav-bar">
+        <div class="heading">
+            <h1>Sales Predictor</h1>
+        </div>
+        <div class="signout">
+            <a (click)="goToSignIn()">Sign Out</a>
+        </div>
+        <div class="get-data">
+            <a (click)="goToCalculate()">Calculate</a>
+        </div>
+        <div class="instruction">
+            <a (click)="goToInstructPage()">Instructions</a>
+        </div>
+        <div class="home">
+            <a (click)="goToHomePage()">Home</a>
+        </div>
+    </div>
+    
+    <div class="instruct">
+        <div class="sales-img">
+            <img src="https://miro.medium.com/max/828/1*gsUixexI9DsFfKsS-ZZqng.png">
+        </div>
+        <div class="list-set">
+            <ol>
+                <li>Upload the required file (Excel file - .xlsx, CSV file - .csv) in the 'Upload File' section.</li><br>
+                <li>Enter the date on which sales must be predicted.</li><br>
+                <li>Click on 'Calculate' button to see the predicted sales.</li>
+            </ol>
+            <br><br>
+            <div class="go-to-calc">
+                <p>Click the button below to proceed with Sales Prediction.</p><br>
+                <button class="calc-page btn" (click)="goToCalculate()">Go To Predict Sales</button>
+            </div>
+        </div>
+       
+    </div>
+
+</div>

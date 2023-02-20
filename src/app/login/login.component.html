@@ -1,0 +1,23 @@
+<div class="main-div">
+    <div class="left-hover">
+        <img src="https://infusai.com/assets/images/svg/08.svg" alt="" class="sales-img">
+    </div>
+    
+    <div class="main-log">
+        <h1 class="top-level">Sales Predictor</h1>
+        <h1 class="bottom-level">Sign In</h1>
+        <br>
+        <form #login="ngForm" (ngSubmit)="goToMainPage()">
+            <input type="email" placeholder="Email Address" class="mailClass" [(ngModel)]="mailId" email="true"><br><br>
+            <div *ngIf="mailId == ''" class="alert alert-danger"></div>
+            <input required type="password" placeholder="Password" class="passClass"><br><br>
+            <div class="buttonDiv">
+                <button type="button" class="btn" (click)="goToMainPage()">Sign In</button>
+            </div>
+        </form>
+        
+        
+    </div>
+    
+</div>
+

@@ -1,0 +1,116 @@
+.full-page {
+    background-color: rgb(252, 255, 213);
+    font-family: 'Verdana';
+}
+
+.nav-bar {
+    background-color: rgb(251, 131, 79);
+    overflow: hidden;
+}
+
+.home {
+    margin-top: 20px;
+    font-family: 'Verdana';
+}
+
+.get-data {
+    margin-top: 20px;
+    font-family: 'Verdana';
+}
+
+.instruction {
+    margin-top: 20px;
+    font-family: 'Verdana';
+}
+
+.signout {
+    margin-top: 20px;
+    font-family: 'Verdana';
+}
+
+.nav-bar h1 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Verdana';
+}
+
+.nav-bar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(255, 237, 134);
+    color: black;
+}
+
+.instruct {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.sales-img img{
+    width: 100%;
+}
+
+.sales-img {
+    width: 50%;
+}
+
+.list-set {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    text-align: initial;
+}
+
+.calc-page {
+    display: inline;
+    float: right;
+}
+
+.btn{
+    display:inline-block;
+    margin-bottom:0;
+    font-weight:400;
+    text-align:center;
+    color: aliceblue;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    background-image:none;
+    background-color:rgb(251, 131, 79);
+    border-color:#adadad;
+    border:1px solid transparent;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:1.42857143;
+    border-radius:4px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.btn:hover{
+    color:rgb(67, 75, 101);
+    text-decoration:none
+}
+
+

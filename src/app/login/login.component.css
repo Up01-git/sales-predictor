@@ -1,0 +1,91 @@
+
+.main-div {
+    background-color: rgb(252, 255, 213);
+}
+
+.sales-img {
+    width: 600px;
+    height: 800px;
+}
+
+.left-hover {
+    display: inline;
+}
+
+.main-log {
+    float: right;
+    display: inline;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 200px;
+}
+
+.mailClass {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(251, 131, 79);
+}
+
+.passClass {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(251, 131, 79);
+}
+
+.top-level {
+    font-size: 40pt;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(251, 131, 79);
+}
+
+.bottom-level {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(251, 131, 79);
+}
+
+.buttonDiv {
+    text-align: center;
+}
+
+.btn{
+    display:inline-block;
+    margin-bottom:0;
+    font-weight:400;
+    text-align:center;
+    color: aliceblue;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    background-image:none;
+    background-color:rgb(251, 131, 79);
+    border-color:#adadad;
+    border:1px solid transparent;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:1.42857143;
+    border-radius:4px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.btn:hover{
+    color:rgb(67, 75, 101);
+    text-decoration:none
+}
+
+/* .alert-danger {
+    background-color: rgb(209, 100, 16);
+}
+
+.alert {
+    margin-bottom: 15px;
+    text-align: left;
+} */
